@@ -1,27 +1,25 @@
-table{
+table {
     width: 500px;
     height: auto;
     border-collapse: collapse;
 }
-table tr{
-    border-bottom: 1px solid #222;
+table tr {
+        border-bottom: 1px solid #222;
+}
+table tr th {
+    padding: 5px;
+    background: #dedede;
+}
+table tr td {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
 }
 table tr:hover{
     background: #dadada;
 }
-table tr:nth-child(odd){
-    background: #dedede;
-}
-
-table tr th{
-        padding: 5px;
-        background: #aaa;
-}
-table tr td{
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-}
-table, tr, th, td{
-   /* border: 1px solid #222;*/
+table tr:nth-child(){
+    background: #8fe0f5;
+    width: 36px;
+    height: 36px;
 }
